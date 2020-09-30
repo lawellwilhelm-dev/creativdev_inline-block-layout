@@ -1,0 +1,25 @@
+{
+  "name": "creativdev_inline-block-layout",
+  "version": "1.0.0",
+  "description": "Simple exercise I designed to teach my student how to use ``display: inline-block;`` to create a *page layout*. I also, design this exercise to help me understand better the **Box-Model**.",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server --browser='firefox'"
+  },
+  "author": "Lawell Wilhelm",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawellwilhelm-dev/creativdev_inline-block-layout.git"
+  },
+  "keywords": [
+    "display",
+    "inline-block",
+    "layout",
+    "box-model"
+  ],
+  "bugs": {
+    "url": "https://github.com/lawellwilhelm-dev/creativdev_inline-block-layout/issues"
+  },
+  "homepage": "https://github.com/lawellwilhelm-dev/creativdev_inline-block-layout#readme"
+}

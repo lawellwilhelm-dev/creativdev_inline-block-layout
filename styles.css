@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;400;700&family=Lobster&family=Roboto:wght@300;400&display=swap');
+
+/* COLOR PALETTE */
+/* https://coolors.co/e8e9f3-cecece-a6a6a8-272635-b1e5f2 */
+
+/* FONTS */
+/* https://fonts.google.com/specimen/Lobster?sidebar.open=true&selection.family=Epilogue:wght@100;200;400;700|Lobster|Roboto:wght@300;400&query=lobster */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    min-height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #272635;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0;
+    font-weight: 300;
+
+    color: #272635;
+}
+
+.navigation, .main-container {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+
+    font-size: 1.8rem;
+}
+
+.wrapper {
+    padding: 1.5rem 16rem 6rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+}
+h2, h3 {
+    font-size: 3.2rem;
+
+    margin-bottom: 2rem;
+}
+
+p {
+    line-height: 1.65;
+    margin-bottom: 2rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* NAVIGATION */
+.navigation {
+    width: 20%;
+    background-color: #272635;
+
+    padding-top: 5.2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a:link,
+nav a:visited {
+    font-weight: 300;
+    font-size: 2.4rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #e8e9f3;
+
+    display: inline-block;
+    width: 100%;
+
+    padding: 1.2rem 6rem;
+
+    transition: all .4s;
+}
+
+nav a:hover,
+nav a:active,
+nav a.active {
+    background-color: #e8e9f3;
+    color: #272635;
+}
+
+/* HEADER */
+header {
+    background-color: #e8e9f3;
+}
+
+/* LOGO */
+.logo {
+    font-family: 'lobster', cursive;
+    font-size: 3rem;
+}
+
+/* HERO-BOX */
+.hero-box {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 4.5rem;
+
+    padding: 6rem 0;
+}
+
+.main-heading span {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.btn {
+    font-size: 2rem;
+    font-weight: 200;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #272635;
+
+    display: inline-block;
+    padding: 1.3rem 2rem;
+}
+
+.btn-work:link,
+.btn-work:visited {
+    background-color: #272635;
+    border: 1px solid #272635;
+
+    color: #e8e9f3;
+
+    transition: all .2s;
+}
+
+.btn-request:link,
+.btn-request:visited {
+    background-color: #b1e5f2;
+    border: 1px solid #b1e5f2;
+
+    transition: all .2s;
+}
+
+.btn-work:hover,
+.btn-work:active {
+    background-color: rgba(39, 38, 53, 0.8);
+    border: 1px solid #272635;
+
+    color: #e8e9f3;
+}
+
+.btn-request:hover,
+.btn-request:active {
+    background-color: rgba(177, 229, 242, 0.7);
+    border: 1px solid #b1e5f2;
+}
+
+/* MAIN  */
+.main-container {
+    width: 80%;
+    background-color: khaki;
+}
+.about, .services, .contact {
+    padding: 3rem 0;
+}
+
+/* ABOUT */
+.about {
+    background-color: #a6a6a8;
+}
+
+.services {
+    background-color: #e8e9f3;
+}
+.service-items {
+    font-size: 0;
+}
+.service-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 22rem;
+    height: 30rem;
+    background-color: hsl(235, 31%, 95%);
+
+    padding: 2rem 2rem 3rem;
+    margin-right: 1rem;
+}
+
+.service-item:last-child {
+    margin-right: 0;
+}
+
+.service-item h3 {
+    font-size: 2rem;
+
+    text-align: center;
+}
+.service-item p {
+    font-size: 1.8rem;
+}
+
+.contact {
+    background-color: #cecece;
+}
+
+input, textarea {
+    display: inline-block;
+    width: 60%;
+
+    padding: .8rem 1.5rem;
+    margin-bottom: 2rem;
+
+    background-color: #e8e9f3;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+
+    color: #272635;
+
+    border: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #1d1c25;
+}
+
+textarea {
+    resize: none;
+    height: 15rem;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    background-color: #272635;
+    border: 1px solid #272635;
+
+    padding: 1rem 2.5rem;
+
+    text-transform: uppercase;
+
+    font-size: 1.8rem;
+    color: #e8e9f3;
+}
+footer {
+    background-color: #e8e9f3;
+    padding: 3rem 0;
+
+    
+    font-size: 1.2rem;
+    font-weight: 200;
+
+    text-align: center;
+
+}
